@@ -105,3 +105,15 @@ function restartGame() {
     `;
     restart.style.display = 'none';
 }
+
+// Clear Modal
+function clearModal(e) {
+    if (e.target == modal) {
+        modal.style.display = 'none';
+    }
+}
+
+//Event listeners
+choices.forEach(choice => choice.addEventListener('click', play));
+window.addEventListener('click', clearModal);
+restart.addEventListener('click', restartGame);
