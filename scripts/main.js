@@ -11,6 +11,7 @@ const scoreboard = {
 var audio = document.getElementById("bg-sound");
 audio.volume = 0.25;
 
+// Play game
 function play(e) {
     restart.style.display = 'inline-block';
     const playerChoice = e.target.id;
