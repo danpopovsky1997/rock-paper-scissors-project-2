@@ -12,7 +12,31 @@
 </head>
 
 <body>
+    <div class="background"></div>
+    <div class="container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make Your Move!</h2>
+        <div class="choices">
+            <i id= "rock" class="fa-regular fa-hand-back-fist fa-10x"></i>
+            <i id="paper" class="fa-regular fa-hand fa-10x"></i>
+            <i id="scissors" class="fa-regular fa-hand-scissors fa-10x"></i>
+        </div>
+    </div>
 
+    <div class="modal">
+        <div id="result" class="modal-content"></div>
+    </div>
+    <audio id="win-sound" src="assets/sounds/win-effect.mp3"></audio>
+    <audio id="lose-sound" src="assets/sounds/lose-effect.mp3"></audio>
+    <audio id="draw-sound" src="assets/sounds/draw-effect.mp3"></audio>
+    <audio id="bg-sound" src="assets/sounds/bg-effect.mp3" autoplay loop></audio>
 
 
     <script src="assets/scripts/main.js"></script>
