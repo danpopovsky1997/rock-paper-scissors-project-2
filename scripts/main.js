@@ -7,3 +7,14 @@ const scoreboard = {
     player: 0,
     computer: 0
 };
+
+var audio = document.getElementById("bg-sound");
+audio.volume = 0.25;
+
+function play(e) {
+    restart.style.display = 'inline-block';
+    const playerChoice = e.target.id;
+    const computerChoice = getComputerChoice();
+    const winner = getWinner(playerChoice, computerChoice);
+    showWinner(winner, computerChoice);
+}
