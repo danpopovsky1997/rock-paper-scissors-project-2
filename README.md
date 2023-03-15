@@ -53,7 +53,7 @@ In this section, we will dive into some of the features and functions that are b
 
 - __The Instructions Section__
 
-  - This sections tells the use how to play the game.
+  - This sections tells the user how to play the game.
 
 ![The Instructions](docs/instructions.PNG)
 
