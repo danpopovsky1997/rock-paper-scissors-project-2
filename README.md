@@ -90,7 +90,7 @@ To validate my JavaScript I used JSHint. I ran the tests and had a few syntax is
 </details>    
   
 ### Performance
-To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard of performance accross different devices. Tests showed a high score on two devices, desktop and mobile
+To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard of performance across different devices. Tests showed a high score on two devices, desktop and mobile
 
 <details><summary>Lighthouse - Desktop</summary>
 <img src="docs/lighthouse1.PNG">  
