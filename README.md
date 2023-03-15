@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 (Developer: Daniel Popovsky)
 
-![Mockup Image](docs/mockup.png)
+![Mockup Image](docs/mockup.PNG)
 
 [Live Webpage](insert here)
 
@@ -19,38 +19,38 @@ In this section, we will dive into some of the features and functions that are b
 
   - This feature is displayed at the top of the page and allows the user to turn off the background music. The user will know if the sound is on or off as the icon changes to a speaker emitting no sound. If the user click on it again, the background music will turn on.
 
-![Volume On Button](docs/volumeon.png)
-![Volume Off Button](docs/volumeoff.png)
+![Volume On Button](docs/volumeon.PNG)
+![Volume Off Button](docs/volumeoff.PNG)
 
 - __The Restart__
 
   - This button becomes available after a move has been made, and a score is added to the scoreboard. This restart button allows the user to restart the game resetting the score. The button disappears when the game is reset.
 
-![Restart Button](docs/restart.png)
+![Restart Button](docs/restart.PNG)
 
 - __The Scoreboard__
 
   - This scoreboard keeps track of the games score. The player's score is tracked and the computer's also. Depending on the outcome of choice, if the player wins, a point will be added to the scoreboard. Once the restart button is clicked, the score resets to 0.
 
-![Scoreboard](docs/scoreboard.png)
+![Scoreboard](docs/scoreboard.PNG)
 
 - __The Selection Area__
 
   - This section is known as the selection area and displays the different options the user has. Each selection has a specific icon that tells the user what they are chosing. Once clicked, a winner is decided.
 
-![Selection Area](docs/selection.png)
+![Selection Area](docs/selection.PNG)
 
 - __The Outcome Pop-Up__
 
   - This feature appears to let the user know who has won the round. The computers choice is displayed. Depending on a win, lose or draw situation a sound will be emitted.
 
-![The Outcome](docs/outcome.png)
+![The Outcome](docs/outcome.PNG)
 
 - __The Instructions Section__
 
   - This sections tells the use how to play the game.
 
-![The Instructions](instructions/outcome.png)
+![The Instructions](docs/instructions.PNG)
 
 ### Features Left to Implement
 
