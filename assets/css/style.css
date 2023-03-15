@@ -2,6 +2,7 @@
 /* Imported font from Google Fonts */
 
 :root {
+    /*This root allows me to control colors more efficiently*/
     --primary-color: #887f00;
     --dark-color: #000000;
     --light-color: #f4f4f4;
@@ -104,6 +105,8 @@ body {
 }
 
 #intructions h3 {
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     color: white;
     font-size: 3.5em;
@@ -111,6 +114,9 @@ body {
 }
 
 #intructions li {
+    border: 5px;
+    width: 100%;
+    height: auto;
     background-color: #e0ef00;
     display: block;
     font-size: 1.5em;
@@ -143,6 +149,12 @@ body {
     }
 }
 
+@media(max-width: 550px) {
+    #intructions {
+        font-size: 65%;
+    }
+}
+
 @media(max-width: 500px) {
     .choices {
         font-size: 65%;
@@ -152,6 +164,26 @@ body {
 @media(max-width: 430px) {
     .choices {
         font-size: 40%;
+    }
+
+    #intructions {
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: 100%
+    }
+}
+
+@media(max-width: 375px) {
+    #intructions {
+        font-size: 45%;
+    }
+}
+
+@media(max-width: 320px) {
+    #intructions {
+        font-size: 35%;
     }
 }
 
