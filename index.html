@@ -49,6 +49,12 @@
         <audio id="lose-sound" src="assets/sounds/lose-effect.mp3"></audio>
         <audio id="draw-sound" src="assets/sounds/draw-effect.mp3"></audio>
         <audio id="bg-sound" src="assets/sounds/bg-effect.mp3" autoplay loop></audio>
+        <script>
+            window.onload = function() {
+              var bgSound = document.getElementById("bg-sound");
+              bgSound.play();
+            }
+          </script>
 
         <script src="assets/scripts/main.js"></script>
 </body>
