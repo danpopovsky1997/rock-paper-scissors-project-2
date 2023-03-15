@@ -3,7 +3,7 @@
 
 ![Mockup Image](docs/mockup.png)
 
-[Live Webpage](insert here)
+[Live Webpage]https://danpopovsky1997.github.io/rock-paper-scissors-project-2/
 
 Rock, Paper, Scissors is a game that was developed to demonstrate some of the uses of Javascript when it comes to basic game development. This game aims to show the user how Javascript is used to create basic functionality.
 
@@ -57,4 +57,24 @@ In this section, we will dive into some of the features and functions that are b
 - A round based system e.g. whoever gets to 10 first, wins the round.
 
 ## Testing 
+
+In this section, we test the game using various tools. We have also tested for responsiveness to ensure it fits certain devices with a smaller screen size.
+
+### Responsiveness for Screen Sizes
+
+- iPhone 5 
+![The Instructions](docs/iphone5.png)
+
+- iPhone 11 
+![The Instructions](docs/iphone11.png)
+
+- iPhone 12 Pro Max 
+![The Instructions](docs/iphone12pro.png)
+
+- iPad Air 
+![The Instructions](docs/ipadair.png)
+
+- Macbook 
+![The Instructions](docs/macbook.png)
+
  
