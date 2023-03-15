@@ -133,7 +133,7 @@ There seems to be a policy in place that does not allow autoplay files to be pla
 <details><summary>Error</summary>
 <img src="docs/error.PNG">
 </details>
-[Policy](https://developer.chrome.com/blog/autoplay/#:~:text=Chrome's%20autoplay%20policies%20are%20simple,%2C%20tap%2C%20etc)
+[Policy](https://developer.chrome.com/blog/autoplay/#:~:text=Chrome's%20autoplay%20policies%20are%20simple,%2C%20tap%2C%20etc.).)
 
 ## Deployment 
 
