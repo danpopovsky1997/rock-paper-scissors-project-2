@@ -83,7 +83,7 @@ To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures an
 </details>  
   
 #### JavaScript Validation
-To validate my JavaScript I used JSHint. I ran the tests and had a few syntax issues. I fixed these and re-ran the test again and had to errors relating to the code. There were however a few warning, but nothing that impacted to functionality of the code itself.
+To validate my JavaScript I used JSHint. I ran the tests and had a few syntax issues. I fixed these and re-ran the test again and had to errors relating to the code. There were however a few warnings, but nothing that impacted the functionality of the code itself.
 
 <details><summary>JavaScript Code Validation</summary>
 <img src="docs/jscheck.PNG">
