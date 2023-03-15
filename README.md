@@ -128,7 +128,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 ### Errors
 
-There seems to be a policy in places that does not allow Autoplay files to be play. This has led to the background noise not being able to play. However, when launching a Live Server from VS Code the background music does play. I was unsure on how I was to go about this problem and issue. I have attached a picture of the error from Chrome Developer Tools and a link to the policy itself. 
+There seems to be a policy in place that does not allow autoplay files to be played. This has led to the background music not being able to play. However, when launching a Live Server from VS Code the background music does play. I was unsure on how I was to go about this problem and issue. I have attached a picture of the error from Chrome Developer Tools and a link to the policy itself. 
 
 <details><summary>Error</summary>
 <img src="docs/error.PNG">
