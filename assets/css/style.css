@@ -112,6 +112,26 @@ body {
     list-style-type: none;
 }
 
+.volumebtn {
+    margin-top: 5px;
+}
+
+.volumebtn {
+    cursor: pointer;
+}
+
+.volumebtn:hover {
+    color: var(--primary-color);
+}
+
+#vol-off {
+    display: none;
+}
+
+#vol-oon {
+    display: block;
+}
+
 @media(max-width: 700px) {
     .choices {
         font-size: 85%;

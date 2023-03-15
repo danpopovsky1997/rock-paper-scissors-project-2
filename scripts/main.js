@@ -8,10 +8,33 @@ const scoreboard = {
     computer: 0
 };
 
+/**
+ * This section controls the background audio of the game
+ */
 var audio = document.getElementById("bg-sound");
 audio.volume = 0.50;
 
-// Play game
+var volOn = document.getElementById("vol-on");
+var volOff = document.getElementById("vol-off");
+
+volOn.onclick = function () {
+    volOn.style.display = "none";
+    volOff.style.display = "block";
+
+    var audioElement = document.getElementById("bg-sound");
+    audioElement.muted = true;
+}
+
+volOff.onclick = function () {
+    volOn.style.display = "block";
+    volOff.style.display = "none";
+    var audioElement = document.getElementById("bg-sound");
+    audioElement.muted = false;
+}
+
+/**
+ * This function allows the user the play game
+ */
 function play(e) {
     restart.style.display = 'inline-block';
     const playerChoice = e.target.id;
@@ -20,7 +43,9 @@ function play(e) {
     showWinner(winner, computerChoice);
 }
 
-// Get Computer Choice
+/**
+ * This function gets the computer choice
+ */
 function getComputerChoice() {
     const rand = Math.random();
     if (rand < 0.34) {
@@ -32,7 +57,9 @@ function getComputerChoice() {
     }
 }
 
-// Get game winner
+/**
+ * This function gets the game winner
+ */
 function getWinner(p, c) {
     if (p === c) {
         return 'draw';
@@ -57,11 +84,12 @@ function getWinner(p, c) {
     }
 }
 
+/**
+ * This function Inc player score and modal result, Inc computer score and modal result and shows the score on the scoreboard
+ */
 function showWinner(winner, computerChoice) {
     if (winner === 'player') {
-        // Inc player score
         scoreboard.player++;
-        // Show modal result
         result.innerHTML = `
         <h1 class="text-win">You Win</h1>
         <i class="fa-regular fa-hand-${computerChoice} fa-10x"></i>
@@ -69,9 +97,7 @@ function showWinner(winner, computerChoice) {
         `;
         document.getElementById("win-sound").play();
     } else if (winner === 'computer') {
-        // Inc computer score
         scoreboard.computer++;
-        // Show modal result
         result.innerHTML = `
         <h1 class="text-lose">You Lose</h1>
         <i class="fa-regular fa-hand-${computerChoice} fa-10x"></i>
@@ -86,7 +112,6 @@ function showWinner(winner, computerChoice) {
         `;
         document.getElementById("draw-sound").play();
     }
-    // Show score 
     score.innerHTML = `
     <p>Player: ${scoreboard.player}</p>
     <p>Computer: ${scoreboard.computer}</p>
@@ -95,7 +120,9 @@ function showWinner(winner, computerChoice) {
     modal.style.display = 'block';
 }
 
-// Restart Game
+/**
+ * This function allows the user to restart the game
+ */
 function restartGame() {
     scoreboard.player = 0;
     scoreboard.computer = 0;
@@ -106,14 +133,18 @@ function restartGame() {
     restart.style.display = 'none';
 }
 
-// Clear Modal
+/**
+ * This function clears the modal
+ */
 function clearModal(e) {
     if (e.target == modal) {
         modal.style.display = 'none';
     }
 }
 
-//Event listeners
+/**
+ * These are the event listeners
+ */
 choices.forEach(choice => choice.addEventListener('click', play));
 window.addEventListener('click', clearModal);
 restart.addEventListener('click', restartGame);

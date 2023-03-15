@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -14,15 +14,19 @@
 <body>
     <div class="background"></div>
     <div class="container">
+        <div class="volumebtn">
+            <i id="vol-on" class="volume fa-solid fa-volume-high fa-2x"></i>
+            <i id="vol-off" class="volume fa-solid fa-volume-off fa-2x"></i>
+        </div>
         <header>
-            <h1>Rock Paper Scissors</h1>
+            <h1>Rock, Paper, Scissors, Shoot!</h1>
             <button id="restart" class="restart-btn">Restart Game</button>
             <div id="score" class="score">
                 <p>Player: 0</p>
                 <p>Computer: 0</p>
             </div>
         </header>
-        <h2>Make Your Move!</h2>
+        <h2>got what it takes?</h2>
         <div class="choices">
             <i id="rock" class=" choice fa-regular fa-hand-back-fist fa-10x"></i>
             <i id="paper" class="choice fa-regular fa-hand fa-10x"></i>
@@ -36,18 +40,15 @@
             <li>Press restart to restart the game</li>
             <li>Have fun!</li>
         </div>
-    </div>
 
-    <div class="modal">
-        <div id="result" class="modal-content"></div>
-    </div>
-    <audio id="win-sound" src="assets/sounds/win-effect.mp3"></audio>
-    <audio id="lose-sound" src="assets/sounds/lose-effect.mp3"></audio>
-    <audio id="draw-sound" src="assets/sounds/draw-effect.mp3"></audio>
-    <audio id="bg-sound" src="assets/sounds/bg-effect.mp3" autoplay loop></audio>
+        <div class="modal">
+            <div id="result" class="modal-content"></div>
+        </div>
+        <audio id="win-sound" src="assets/sounds/win-effect.mp3"></audio>
+        <audio id="lose-sound" src="assets/sounds/lose-effect.mp3"></audio>
+        <audio id="draw-sound" src="assets/sounds/draw-effect.mp3"></audio>
+        <audio id="bg-sound" src="assets/sounds/bg-effect.mp3" autoplay loop></audio>
 
-
-    <script src="scripts/main.js"></script>
+        <script src="scripts/main.js"></script>
 </body>
-
 </html>
