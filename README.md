@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 (Developer: Daniel Popovsky)
 
-![Mockup Image](docs/mockup.PNG)
+![Mockup Image](docs/mockup.png)
 
 [Live Webpage](insert here)
 
