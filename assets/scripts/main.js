@@ -14,6 +14,11 @@ const scoreboard = {
 var audio = document.getElementById("bg-sound");
 audio.volume = 0.50;
 
+window.onload = function() {
+    var bgSound = document.getElementById("bg-sound");
+    bgSound.play();
+  }
+
 var volOn = document.getElementById("vol-on");
 var volOff = document.getElementById("vol-off");
 
