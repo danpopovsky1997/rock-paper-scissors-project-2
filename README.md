@@ -5,7 +5,7 @@
 
 [Live Webpage](https://danpopovsky1997.github.io/rock-paper-scissors-project-2/)
 
-Rock, Paper, Scissors is a game that was developed to demonstrate some of the uses of JavaScript when it comes to basic game development. This game aims to show the user how Javascript is used to create basic functionality.
+Rock, Paper, Scissors is a game that was developed to demonstrate some of the uses of JavaScript when it comes to basic game development. This game aims to show the user how JavaScript is used to create basic functionality.
 
 Within this game the user will be able to play against a computer, whilst being able to keep track of the overall score. Once a selection is made, the winner is decided and a point is added to the winners scoreboard. The user also has the ability to restart the game if they wish. This game has audio built into it, letting the user know if they have won, lost or if it is a draw. Background music is optional, allowing the use the mute the music using the volume button.
 
