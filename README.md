@@ -22,7 +22,7 @@ In this section, we will dive into some of the features and functions that are b
 
 - __The Mute Button__
 
-  - This feature is displayed at the top of the page and allows the user to turn off the background music. The user will know if the sound is on or off as the icon changes to a speaker emitting no sound. If the user click on it again, the background music will turn on.
+  - This feature is displayed at the top of the page and allows the user to turn off the background music. The user will know if the sound is on or off as the icon changes to a speaker emitting no sound. If the user clicks on it again, the background music will turn on.
 
 ![Volume On Button](docs/volumeon.PNG)
 ![Volume Off Button](docs/volumeoff.PNG)
