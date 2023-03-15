@@ -17,7 +17,7 @@ audio.volume = 0.50;
 window.onload = function() {
     var bgSound = document.getElementById("bg-sound");
     bgSound.play();
-  }
+  };
 
 var volOn = document.getElementById("vol-on");
 var volOff = document.getElementById("vol-off");
@@ -28,14 +28,14 @@ volOn.onclick = function () {
 
     var audioElement = document.getElementById("bg-sound");
     audioElement.muted = true;
-}
+};
 
 volOff.onclick = function () {
     volOn.style.display = "block";
     volOff.style.display = "none";
     var audioElement = document.getElementById("bg-sound");
     audioElement.muted = false;
-}
+};
 
 /**
  * This function allows the user the play game
@@ -58,7 +58,7 @@ function getComputerChoice() {
     } else if (rand <= 0.67) {
         return 'paper';
     } else {
-        return 'scissors'
+        return 'scissors';
     }
 }
 
