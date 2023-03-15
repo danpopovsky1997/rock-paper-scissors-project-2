@@ -47,7 +47,7 @@ In this section, we will dive into some of the features and functions that are b
 
 - __The Outcome Pop-Up__
 
-  - This feature appears to let the user know who has won the round. The computers choice is displayed. Depending on a win, lose or draw situation a sound will be emitted.
+  - This feature appears to let the user know who has won the round. The computer's choice is displayed. Depending on a win, lose or draw situation a sound will be emitted.
 
 ![The Outcome](docs/outcome.PNG)
 
