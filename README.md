@@ -27,7 +27,7 @@ In this section, we will dive into some of the features and functions that are b
 ![Volume On Button](docs/volumeon.PNG)
 ![Volume Off Button](docs/volumeoff.PNG)
 
-- __The Restart__
+- __The Restart Button__
 
   - This button becomes available after a move has been made, and a score is added to the scoreboard. This restart button allows the user to restart the game resetting the score. The button disappears when the game is reset.
 
